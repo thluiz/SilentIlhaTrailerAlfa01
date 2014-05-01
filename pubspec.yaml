@@ -1,0 +1,5 @@
+name: SilentIlhaTrailerAlfa01
+description: A sample web application
+dependencies:
+  animation: any
+  browser: any

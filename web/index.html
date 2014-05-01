@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PlayTest</title>
+    <link rel="stylesheet" href="silentilhatraileralfa01.css">
+  </head>
+  <body style="background:black">      
+                               
+    <div style="position:relative;top:35px;width:670px;height:460px;overflow:hidden;" id="stage">
+      <div style="position:absolute;top:10px;width:670px;z-index:10;">
+        <div style="width:100%;text-align:center;opacity:0;color:yellow;font-size:20px" id="subtitles">&nbsp;</div>    
+      </div>
+      
+      <div id="divZombie" style="position:absolute;opacity:0;z-index:10;width:115px;top:320px;left:518px;">
+        <img src="zumbi.png" border="0" style="width:100%;"/>
+      </div>
+      
+      <div id="divImg2" style="position:absolute;opacity:0;z-index:3">
+        <img src="img3.jpg" border="0"  style="width:100%"/>
+      </div>           
+      
+      <div id="divImg1" style="position:absolute;opacity:0;z-index:2">
+        <img src="img1.jpg" border="0" style="width:100%"/>
+      </div>
+          
+      <div id="divImg0" style="position:absolute;opacity:1;z-index:1">
+        <img src="img0.jpg" border="0"  style="width:100%"/>
+      </div>
+      
+      <div id="divCall4players" style="position:absolute;opacity:1;z-index:5;width:100%;text-align:center;top:80px;color:yellow;">
+        <p style="font-size:40px;color:yellow;opacity:0">10/05</p>
+        <p style="font-size:30px;color:yellow;opacity:0">Ilha do Governador</p>
+        <p style="font-size:25px;color:yellow;opacity:0">Você está preparado?</p>
+      </div>      
+    </div> 
+    
+    <div style="position:absolute;top:35px;width:670px;height:460px;overflow:hidden;background:black;z-index:20;opacity:0" id="credits">
+      <div style="opacity:0"><b>Produção:</b> Editora Genesys</div>
+      <div style="opacity:0"><b>Direção:</b> Filipe <b>Sobreira</b> e THiago <b>Luiz</b></div>            
+      <div style="opacity:0"><b>Imagens:</b> <b>Daniel</b> Soares </div>
+      <div style="opacity:0"><b>Música:</b> Filipe <b>Sobreira</b> </div>
+      <div style="opacity:0"><b>Edição de Som:</b> THiago <b>Luiz</b> </div>
+      <div style="opacity:0"><b>Animação:</b> THiago <b>Luiz</b> </div>               
+    </div>  
+    
+    <div style="position:absolute;top:50px;left:80px;width:670px;height:460px;overflow:hidden;background:black;z-index:25;opacity:0" id="logo">
+      <img src="logo.png" />
+    </div>
+        
+    <audio id="audio01" ><source src="silent-ilha-playtest1-sfw.mp3" type="audio/mpeg"></source></audio>
+    <script type="application/dart" src="silentilhatraileralfa01.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
